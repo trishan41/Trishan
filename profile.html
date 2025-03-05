@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - TRISHANJIT ROY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Visitor Profile</h2>
+        <img src="images/default-avatar.png" id="profilePic" class="profile-img">
+        <p id="visitorName">Guest</p>
+        <button onclick="likePhoto()">👍 Like</button>
+        <button onclick="commentPhoto()">💬 Comment</button>
+    </div>
+
+    <script src="firebase-config.js"></script>
+    <script>
+        function likePhoto() {
+            alert("❤️ Liked the photo!");
+        }
+
+        function commentPhoto() {
+            const comment = prompt("Enter your comment:");
+            if (comment) {
+                alert("💬 Comment added: " + comment);
+            }
+        }
+    </script>
+</body>
+</html>

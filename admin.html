@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - TRISHANJIT ROY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Admin Login</h2>
+        <input type="password" id="adminPass" placeholder="Enter Admin Password">
+        <button onclick="checkAdmin()">Login</button>
+        <div id="adminPanel" style="display: none;">
+            <h3>Upload Photo/Video</h3>
+            <input type="file" id="fileUpload">
+            <button onclick="uploadFile()">Upload</button>
+        </div>
+    </div>
+
+    <script src="firebase-config.js"></script>
+    <script>
+        function checkAdmin() {
+            const pass = document.getElementById("adminPass").value;
+            if (pass === "trishanjit@trisha") {
+                document.getElementById("adminPanel").style.display = "block";
+            } else {
+                alert("❌ Wrong Password!");
+            }
+        }
+
+        function uploadFile() {
+            const file = document.getElementById("fileUpload").files[0];
+            const storageRef = firebase.storage().ref("uploads/" + file.name);
+            storageRef.put(file).then(() => {
+                alert("✅ File Uploaded Successfully!");
+            });
+        }
+    </script>
+</body>
+</html>
