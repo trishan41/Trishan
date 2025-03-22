@@ -82,9 +82,8 @@ body{
   border-radius: 15px;
   box-shadow: 0 0 20px #463939;
   margin: 22px 0 0 5px;
-  background-attachment: scroll;
   position: sticky;
-top: 0;
+  top: 0;
 }
 
 .video-border {
@@ -95,7 +94,7 @@ top: 0;
   box-shadow: 0 0 15px #303839;
   margin: 22px 0 0 7px;
   position: sticky;
-top: 0;
+  top: 0;
   
 }
 .H {
@@ -161,7 +160,6 @@ font-family: 'Times New Roman', Times, serif;
   border-radius: 15px;
   box-shadow: 0 0 20px #463939;
   margin: 22px 0 0 5px;
-  background-attachment: scroll;
   position: sticky;
   top: 0;
 }
@@ -172,7 +170,6 @@ border:5px solid black;
 border-radius: 15px;
 box-shadow: 0 0 20px #463939;
 margin: 22px 0 0 5px;
-background-attachment: scroll;
 position: sticky;
 top: 0;
 }
@@ -183,7 +180,6 @@ border:5px solid black;
 border-radius: 15px;
 box-shadow: 0 0 20px #463939;
 margin: 22px 0 0 5px;
-background-attachment: scroll;
 position: sticky;
 top: 0;
 }
@@ -194,7 +190,6 @@ border:5px solid black;
 border-radius: 15px;
 box-shadow: 0 0 20px #463939;
 margin: 22px 0 0 5px;
-
 position: sticky;
 top: 0;
 }
@@ -205,7 +200,6 @@ border:5px solid black;
 border-radius: 15px;
 box-shadow: 0 0 20px #463939;
 margin: 22px 0 0 5px;
-background-attachment: scroll;
 position: sticky;
 top: 0;
 }
@@ -216,7 +210,6 @@ border:5px solid black;
 border-radius: 15px;
 box-shadow: 0 0 20px #463939;
 margin: 22px 0 0 5px;
-background-attachment: scroll;
 position: sticky;
 top: 0;
 }
