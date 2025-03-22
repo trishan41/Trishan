@@ -91,6 +91,8 @@ margin: 0;
 }
 .bio{
   text-align: center;
+  color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
 }
 .image3{
   height: 380px;
@@ -99,6 +101,8 @@ margin: 0;
   border-radius: 15px;
   box-shadow: 0 0 20px #463939;
   margin: 22px 0 0 5px;
+  position: sticky;
+top: 0;
 
 }
 
@@ -109,6 +113,8 @@ margin: 0;
   border-radius: 10px;
   box-shadow: 0 0 15px #303839;
   margin: 22px 0 0 7px;
+  position: sticky;
+  top: 0;
   
   
 }
@@ -171,7 +177,8 @@ text-shadow: 2px 2px 5px blue;
   border-radius: 15px;
   box-shadow: 0 0 20px #463939;
   margin: 22px 0 0 5px;
-  
+  position: sticky;
+top: 0;
 }
 .image6{
   height: 450px;
@@ -180,6 +187,8 @@ border:5px solid black;
 border-radius: 15px;
 box-shadow: 0 0 20px #463939;
 margin: 22px 0 0 5px;
+  position: sticky;
+top: 0;
 
 }
 .image7{
@@ -189,6 +198,8 @@ border:5px solid black;
 border-radius: 15px;
 box-shadow: 0 0 20px #463939;
 margin: 22px 0 0 5px;
+  position: sticky;
+top: 0;
 
 }
 .image8{
@@ -198,6 +209,8 @@ border:5px solid black;
 border-radius: 15px;
 box-shadow: 0 0 20px #463939;
 margin: 22px 0 0 5px;
+  position: sticky;
+top: 0;
 
 }
 .image9{
@@ -207,6 +220,8 @@ border:5px solid black;
 border-radius: 15px;
 box-shadow: 0 0 20px #463939;
 margin: 22px 0 0 5px;
+  position: sticky;
+top: 0;
 
 }
 .image10{
@@ -216,6 +231,8 @@ border:5px solid black;
 border-radius: 15px;
 box-shadow: 0 0 20px #463939;
 margin: 22px 0 0 5px;
+  position: sticky;
+top: 0;
 
 }
 
@@ -237,3 +254,12 @@ text-shadow: 2px 2px 5px deeppink;
   border: 5px solid black;
   margin: 10px 0 0 0;
 }
+body{
+  background: linear-gradient(to right, #000428, #004e92);
+}
+.C{
+  color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
