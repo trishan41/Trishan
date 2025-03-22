@@ -1,0 +1,246 @@
+*{padding: 0;
+margin: 0;
+  
+}
+body{
+  background: linear-gradient(to right, #000428, #004e92);
+}
+
+
+.heading {
+  margin: 0 0 0 0;
+  background-color: black;
+  text-shadow: 2px 2px 5px blue;
+  animation: heading 2s infinite;
+  padding: 2px 0 0 0;
+}
+@keyframes heading{
+  0% {color: blue;}
+  25%{color: red;}
+  50%{color: pink;}
+  75%{color: yellow;}
+  100%{color: lawngreen}
+}
+.mini-heading {
+  margin: 0px 0 20px 0;
+  background-color: black;
+  color: blue;
+  text-shadow: 2px 2px 5px blue;
+  animation: mini-heading 2s infinite;
+  border-radius: 0px;
+  margin: 1px 0px 10px 0px;
+  padding: 0 0 5px 0 ;
+ 
+ 
+}
+@keyframes mini-heading{
+  0% {color: blue;}
+  25%{color: red;}
+  50%{color: pink;}
+  75%{color: yellow;}
+  100%{color: lawngreen}
+}
+
+.home {
+  margin: 0 0 0 10px;
+}
+.image2{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid black;
+  box-shadow: 5px 5px 5px hotpink;
+  display: block;
+  margin: 0 auto;
+  opacity: 100;
+  transition: 0.3s;
+  
+}
+
+
+
+
+.audio-style{
+  display: block;
+  margin: 0 auto;
+  background: navy;
+  border: 2px solid blue
+}
+.image2:hover{
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+.bio{
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+}
+.image3{
+  height: 380px;
+  width: 370px;
+  border:5px solid black;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #463939;
+  margin: 22px 0 0 5px;
+  background-attachment: scroll;
+  position: sticky;
+top: 0;
+}
+
+.video-border {
+  width: 373px;
+  height: 665px;
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #303839;
+  margin: 22px 0 0 7px;
+  position: sticky;
+top: 0;
+  
+}
+.H {
+  display: inline-block;
+  background-color: lightblue;
+  color: blue;
+  margin: 5px 0 0 20px;
+  font-style: italic;
+  padding: 0 5px 0 5px ;
+  border: 2px solid blue;
+  border-radius: 10px;
+  text-shadow: 2px 2px 5px  blue;
+  font-family: 'Times New Roman', Times, serif;
+}
+.F {
+  display: inline-block;
+background-color: lightblue;
+color: blue;
+margin: 2px 0 0 20px;
+font-style: italic;
+padding: 0 5px 0 5px;
+border: 2px solid blue;
+border-radius: 10px;
+text-shadow: 2px 2px 5px blue;
+font-family: 'Times New Roman', Times, serif;
+}
+.W {
+  display: inline-block;
+background-color: lightblue;
+color: blue;
+margin: 2px 0 0 20px;
+font-style: italic;
+padding: 0 5px 0 5px;
+border: 2px solid blue;
+border-radius: 10px;
+text-shadow: 2px 2px 5px blue;
+font-family: 'Times New Roman', Times, serif;
+}
+.I {
+  display: inline-block;
+background-color: lightblue;
+color: blue;
+margin: 2px 0 0 20px;
+font-style: italic;
+padding: 0 5px 0 5px;
+border: 2px solid blue;
+border-radius: 10px;
+text-shadow: 2px 2px 5px blue;
+font-family: 'Times New Roman', Times, serif;
+
+}
+.ACCEPT{
+  margin: 0 0 3px 0;
+  
+}
+.ANIME{
+  margin: 5px 0 0 0;
+}
+.image5{
+  height: 470px;
+  width: 370px;
+  border:5px solid black;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #463939;
+  margin: 22px 0 0 5px;
+  background-attachment: scroll;
+  position: sticky;
+  top: 0;
+}
+.image6{
+  height: 450px;
+width: 370px;
+border:5px solid black;
+border-radius: 15px;
+box-shadow: 0 0 20px #463939;
+margin: 22px 0 0 5px;
+background-attachment: scroll;
+position: sticky;
+top: 0;
+}
+.image7{
+  height: 480px;
+width: 370px;
+border:5px solid black;
+border-radius: 15px;
+box-shadow: 0 0 20px #463939;
+margin: 22px 0 0 5px;
+background-attachment: scroll;
+position: sticky;
+top: 0;
+}
+.image8{
+  height: 460px;
+width: 370px;
+border:5px solid black;
+border-radius: 15px;
+box-shadow: 0 0 20px #463939;
+margin: 22px 0 0 5px;
+
+position: sticky;
+top: 0;
+}
+.image9{
+  height: 480px;
+width: 370px;
+border:5px solid black;
+border-radius: 15px;
+box-shadow: 0 0 20px #463939;
+margin: 22px 0 0 5px;
+background-attachment: scroll;
+position: sticky;
+top: 0;
+}
+.image10{
+height: 350px;
+width: 370px;
+border:5px solid black;
+border-radius: 15px;
+box-shadow: 0 0 20px #463939;
+margin: 22px 0 0 5px;
+background-attachment: scroll;
+position: sticky;
+top: 0;
+}
+
+.A {
+  display: inline-block;
+background-color: white;
+color: blue;
+margin: 2px 0 0 20px;
+font-style: italic;
+padding: 0 5px 0 5px;
+border: 2px solid black;
+border-radius: 10px;
+text-shadow: 2px 2px 5px deeppink;
+font-family: 'Times New Roman', Times, serif;
+}
+.L{
+  background-color: white;
+  border-radius: 40px;
+  border: 5px solid black;
+  margin: 10px 0 0 0;
+}
+.C{
+  color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+
+}
